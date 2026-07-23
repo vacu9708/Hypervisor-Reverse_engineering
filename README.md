@@ -1,8 +1,7 @@
 # Description
 This project is an educational reverse-engineering project that implements a hypervisor-assisted runtime memory analysis for a protected 3D Windows application.  
-The goal is to learn how to identify and track specific runtime data (e.g., world-space positions of entities) in memory under anti-debugging and protection mechanisms.
-
-This project was conducted on a personal offline test environment and was used solely for educational analysis of protected processes and visualization techniques.
+The goal is to learn how to identify specific runtime data (e.g., world-space positions of entities) in memory under anti-debugging and protection mechanisms by intercepting guest memory access via EPT violations.
+This project was conducted on a personal test environment and was used solely for educational analysis of protected processes and visualization techniques.
 
 # Hypervisor
 ![image](https://github.com/user-attachments/assets/8f9f1214-fff0-4f37-a044-aaf98f18e9b9)
